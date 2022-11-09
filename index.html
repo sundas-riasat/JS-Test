@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <title>Document</title>
+    <title>JS Test</title>
 </head>
+
 <body>
-    <h1>Please take input from here and display results in an intuitive manner.</h1>
+
+    <h2 class="heading">Js Test</h2>
+
+    <ul class="form-style-1">
+        <li><label>Enter Your Favourite Number <span class="required">*</span></label>
+            <input type="number" name="field1" class="field-divided" id="text-input" placeholder="enter number" />
+            <p id="result" style="display:none"></p>
+        <li>
+            <button type="button" id="submit" onclick="get_input_number()">Submit</button>
+        </li>
+    </ul>
+
+
+
+
     <script src="/script.js"></script>
+
 </body>
+
 </html>
